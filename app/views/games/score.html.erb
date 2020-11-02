@@ -6,4 +6,5 @@
 <% else %>
    <%= "Sorry but #{@answer.capitalize} can\'t be built out of #{@letters}"%>
 <% end %>
+<%= link_to 'Try again', new_path, class:'link' %>
 
